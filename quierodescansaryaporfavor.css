@@ -1,0 +1,295 @@
+
+.micro {
+    width: 130px;
+    height: 40px;
+    animation-name: hola;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+.icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.icono {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.right-sections {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link img.icon {
+    margin-right: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.im {
+    overflow: hidden;
+}
+
+.im ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+}
+
+.im li{
+    list-style: none;
+}
+
+.im .pls{
+    width: 1893px;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    65%{margin-left: -200%;}
+    
+    75%{margin-left: -100%;}
+    85%{margin-left: -100%;}
+
+    90%{margin-left: 0;}
+    100%{margin-left: 0;}
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+.slider, .slider ul, .slider img{
+    height: 100vh;
+}
+}
+
+.parte1{
+    display: inline-block;
+    margin-top: 100px;
+    padding-left: 80px;
+    position: relative;
+    left: 350px;
+}
+
+.parte1 p{
+    color: #077409;
+    text-decoration: underline;
+}
+
+.wii{
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+
+.quee{
+    display: flex;
+}
+
+.wtf{
+    background-color: #077409;
+    position: relative;
+    width: 1800px;
+    height: 534px;
+    right: 80px;
+}
+
+.img2{
+    position: relative;
+    left: -500px;
+    bottom: 0px;
+}
+
+.img2 h2{
+    font-size: 40px;
+}
+
+.img2 p{
+    font-size: 20px;
+}
+
+.img3{
+    position: absolute;
+    top: 240%;
+    left: 53%;
+}
+
+.img3 h2{
+    font-size: 60px;
+}
+
+.ysi{
+    max-width: 50%;
+    height: auto;
+}
+
+.yocuando{
+    color: white;
+    position: absolute;
+    top: 128%;
+    left: 105%;
+    transform: translate(-110%, -40%);
+    background-color: #187c14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    width: 50%;
+    max-width: 1200px;
+    min-width: 460px;
+}
+
+.pero{
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+    top: 156%;
+    left: 50%;
+}
+.yocuando img{
+    height: 500px;
+    position: relative;
+    left: 507px;
+}
+
+.owo:hover{
+    color: #97ef0c;
+    text-decoration: underline;
+}
+
+.tumama{
+    position: relative;
+    right: -470px;
+}
+
+.img1{
+    position: relative;
+    top: 750px;
+    right: 900px;
+    color: #fff;
+}
+
+.img1 h2{
+    font-size: 50px;
+}
+
+.img1 p{
+    font-size: 20px;
+}
+
+.but{
+    color: white;
+    position: absolute;
+    top: 238%;
+    left: 54.5%;
+    transform: translate(-110%, -40%);
+    background-color: #187c14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 494px;
+    width: 49%;
+    max-width: 1200px;
+    min-width: 460px;
+}
+
+.latuya{
+    height: 494px;
+}
+
+.but .img4{
+    position: relative;
+    right: 50px;
+}
+.but h2{
+    font-size: 40px;
+}
+
+.iwi {
+    position: absolute;
+    top: 270%;
+    background-color: #187c14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 535px;
+    width: 49%;
+    max-width: 1200px;
+    min-width: 460px;
+}
+
+.iwi2 {
+    position: absolute;
+    top: 270%;
+    left: 50%;
+    background-color: #187c14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 535px;
+    width: 49%;
+    max-width: 1200px;
+    min-width: 460px;
+}
+
+.yano2{
+    position: absolute;
+    left: 475px;
+}
+
+.iwi2 .img4{
+    color: #fff;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.iwi2 .img4 p{
+    font-size: 20px;
+}
+
+.iwi2 .img4 h2{
+    font-size: 40px;
+}
+
+.iwi .img2{
+    color: #fff;
+    left: 20px;
+}

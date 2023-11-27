@@ -1,0 +1,56 @@
+.dog{
+    position: relative;
+    left: -110px;
+    bottom: 50px;
+}
+p {
+   font-size: 20px; 
+}
+
+h2 {
+    font-size: 30px;
+    color: #1b4aef; 
+}
+
+.ola {
+    position: relative;
+    top: 40px;
+    font-size: 16px;
+    color: #1b4aef;
+}
+
+a{
+    position: relative;
+    top: 20px;
+    border: none;
+    background: linear-gradient(129.58deg,#2870ea 20.88%,#2870ea 20.89%,#1b4aef 77.37%);
+    color: #eff3ff;
+    padding: 9px 32px;
+    border-radius: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    height: 22px;
+    text-decoration: none;
+}
+
+.yocuando{
+  position: absolute;
+  top: 40%;
+  left: 87%;
+  transform: translate(-110%, -40%);
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 25.6px 57.6px 0 rgba(0,0,0,.22), 0 4.8px 14.4px 0 rgba(0,0,0,.18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 530px;
+  width: 70%;
+  max-width: 1200px;
+  min-width: 460px;
+}
+
+body{
+    background-image: url(https://copilot.microsoft.com/rp/itdq0TGlsM-BDvSovDaQdrVxPbo.jpg);
+}

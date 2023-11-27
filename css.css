@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: linear-gradient(to right, #e9cfa9, #9ff0c3, #c59ff0);
+    height: 100vh;
+}
+
+.formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 20px;
+}
+
+.formulario h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.formulario form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.username,
+.password {
+    position: relative;
+    margin: 30px 0;
+}
+
+.username input,
+.password input {
+    margin-left: 30px;
+    width: 80%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid silver;
+}
+
+.username label,
+.password label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.username span::before,
+.password span::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #adadad;
+    transition: .5s;
+}
+
+.username input:focus ~ label,
+.username input:not(:placeholder-shown) ~ label,
+.password input:focus ~ label,
+.password input:not(:placeholder-shown) ~ label {
+    top: -5px;
+    color: #adadad;
+}
+
+.username input:focus ~ span::before,
+.password input:focus ~ span::before {
+    width: 100%;
+}
+
+.recordar {
+    margin: -5px 0 20px 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.recordar:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #adadad;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    border-color: #000;
+    transition: .5s;
+}
+
+.registrarse {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+}
+
+.registrarse a {
+    color: blue;
+    text-decoration: none;
+}
+
+.registrarse a:hover {
+    text-decoration: underline;
+}
